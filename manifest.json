@@ -1,0 +1,21 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "48": "icons/iconon48.png"
+      },
+      "default_title": "Alkalyne92 Live"
+   },
+   "description": "Une belle description",
+   "icons": {
+      "128": "icons/iconon128.png",
+      "48": "icons/iconon48.png"
+   },
+  "manifest_version": 2,
+   "name": "Akalyne92's Live",
+   "permissions": [ "notifications", "https://api.twitch.tv/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.4"
+}
